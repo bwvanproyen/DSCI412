@@ -1,0 +1,51 @@
+---
+title: "DSCI 412 - Github Project"
+author: "Brian Van Proyen"
+date: '2022-12-09'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## DSCI 412 Learing Overview
+
+#### Week 1
+
+The first week we learned about Rmarkdown. I'd used R studio in the past as well as markdown applications in Python but did not realize that R had it's own markdown suite. I wish I would have learned about Rmarkdown earlier in my work with R. It makes things so much easier when presenting work to others. We also made general comparisons between supervised/unsupervised learning.
+\  
+
+#### Week 2
+
+In week 2, I learned about exploratory and explanatory analyses. The difference between them is important. One focuses on obtaining unbiased trends in data and the other seeks to explain possible reasons for the trends.
+\  
+
+#### Week 3
+
+For week 3, we explored linear regression model performance. Specifically we learned about the linear regression summary and how to ouput R^2 values for models and p-values for variables.
+\  
+
+#### Week 4
+
+Week 4 was all about logistical regression. We learned logistical regression is much better with classification than linear regression. We also explored confusion matrices and determined the differences between precision and recall.
+\
+
+#### Week 5
+
+In Week 5 we learned about GLMs (generalized linear models). GLMs don't have as many restrictions and assumptions as ordinary linear models. With GLMs, you can relate the response variable with a link function e.g. Gamma, Poisson, Bernoulli, etc. You can also offset variables that correlate to other variables.
+\  
+
+#### Week 6
+
+Week 6 was all about decision trees. We learned how to create decision trees in R and also how to create random forests. Gradient boosting was also a topic that was covered in the discussion. Gradient boosting uses several models to solve one problem. It is one of the most efficient models is data science.
+\  
+
+#### Week 7
+
+For week 7, we learned about clustering techniques, specifically k-means clustering. The trick is finding the optimal number of clusters for your problem. We learned several techniques for determining a good number of clusters. I like the elbow method since it doesn't take as long to compute as the other methods.
+
+
+#### Week 8
+
+In the last week, we learned about Github and revision control with Git. We also learned how to create presentation slides in R.
